@@ -1,6 +1,4 @@
 
-
-
 var btnCalculate  = document.getElementById("button")
 
 
@@ -13,9 +11,7 @@ btnCalculate.addEventListener("click" , function(){
 
 //     alert("devi scrivere il nome del tuo panino")
 // }
-    
-    
-    
+
     var ingredienti = document.getElementsByClassName("ingredient-checkbox")
     console.log(ingredienti)
     var somma = 50;
