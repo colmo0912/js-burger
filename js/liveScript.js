@@ -28,9 +28,26 @@ btnCalculate.addEventListener("click" , function(){
 
     
     document.getElementById("price").innerHTML = somma
+
+    var codiceUno = "ANDREA01"
+    var codiceDue = "ANDREA02"
+    var codiceTre = "ANDREA03"
+
+    var coupon = document.getElementById("coupon")
+
+    if (coupon.value = codiceUno )
+    {
+
+        somma -= ((somma*20)/100)
+    }else if (coupon.value = codiceDue){
+
+        somma -= ((somma*30)/100)
+    }else if (coupon.value = codiceTre){
+
+        somma -= ((somma*50)/100)
+    }else {
+
+        somma
+    }
 })
-
-
-
-
 
