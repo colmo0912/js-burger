@@ -27,27 +27,35 @@ btnCalculate.addEventListener("click" , function(){
     }
 
     
-    document.getElementById("price").innerHTML = somma
+    var costoTotale = document.getElementById("price").innerHTML = somma
 
     var codiceUno = "ANDREA01"
     var codiceDue = "ANDREA02"
     var codiceTre = "ANDREA03"
-
     var coupon = document.getElementById("coupon")
 
-    if (coupon.value = codiceUno )
-    {
+    // var codiciSconti =["ANDREA01", "ANDREA02" , "ANDREA03"] 
 
-        somma -= ((somma*20)/100)
-    }else if (coupon.value = codiceDue){
+    // for (var i = 0; i<codiciSconti.length; i++){
 
-        somma -= ((somma*30)/100)
-    }else if (coupon.value = codiceTre){
+    //     var sconto = codiciSconti[i];
 
-        somma -= ((somma*50)/100)
-    }else {
+        if (coupon.value = codiceUno )
+        {
+    
+            somma -= ((somma*20)/100)
+        }else if (coupon.value= codiceDue){
+    
+            somma -= ((somma*30)/100)
+        }else if (coupon.value= codiceTre){
+    
+            somma -= ((somma*50)/100)
+        }
 
-        somma
-    }
+        document.getElementById("price").innerHTML = somma
+    
+    
+
 })
+
 
