@@ -30,11 +30,11 @@ btnCalculate.addEventListener("click" , function(){
 
     var codiciSconti =["ANDREA01", "ANDREA02" , "ANDREA03"] 
 
-    for (var i = 0; i < codiciSconti.length; i++){
+    for (var j = 0; j < codiciSconti.length; j++){
 
-        var sconto = codiciSconti[i];
+        var sconto = codiciSconti[j];
 
-        if (coupon.value = sconto )
+        if (coupon.value == sconto )
         {
 
         somma -= ((somma*20)/100)}
